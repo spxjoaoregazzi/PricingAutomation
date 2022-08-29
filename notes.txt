@@ -1,0 +1,16 @@
+O excel pricing já utiliza a api da bbg para ser gerado.
+
+Coisas para melhorar nele:
+
+-Preço source do bond ser BVAL (HP function)
+-CMAN e mid na CDS curve (CDSW function)
+-CBBT e mid para CDX (CDSW function)
+-Ver se dif_c_opts < 0.03%, dif_tbill < 0.30, dif1_bonds < 1 e dif3_bonds = 0 
+
+-Código de batimento:
+-Ver se tem algum valor do BTG em branco
+-Ver se o valor absoluto de todas as difs é menor que certo número (dados risktech)
+-Ver se o valor absoluto de todas as difs é menor que certo número (meus dados)
+
+Se as difs, segundo os meus dados, forem aceitáveis, código printar que as difs estão coerentes!! (bater preços vai demorar 10 segundos)
+
