@@ -31,5 +31,7 @@ except:
 
 print(bond_sheet[:30])
 new_bond_sheet = addBbgPrice(bond_sheet,'Unnamed: 3', date)
-
 '''
+# Colocar todos os bonds em uma lista e criar função da bbgApi get_bonds_price() que devolve lista com todos os preços
+# Calcular dif para cada bond. Se for maior do que 0.5, alertar.
+# Verificar se as difs3 são correspondestes a Reported Factor (zeradas se RF=1, calcular se dif3 n for zerada)
