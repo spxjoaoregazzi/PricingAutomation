@@ -11,7 +11,8 @@ date = str(lastbusyday(dt.date.today())) # Se vc ta vendo de D-1
 #date = str(dt.date.today()) # Se vc ta vendo de D0
 
 # BBG API
-username = 'spxrisk'
-password = 'risk@1234'
+username = 'coloque seu username'
+password = 'coloque sua senha'
 
 # OBS: Esse código está desatualizado e não considera feriados
+#change
