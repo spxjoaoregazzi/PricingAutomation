@@ -1,2 +1,6 @@
 
 config/config.py
+__pycache__/utils.cpython-310.pyc
+config/__pycache__/config.cpython-310.pyc
+database/__pycache__/bbgApi.cpython-310.pyc
+database/queries/__pycache__/data_source.cpython-310.pyc
